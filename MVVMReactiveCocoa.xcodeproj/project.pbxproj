@@ -65,9 +65,7 @@
 		242453251A80D86300FFFCC1 /* ReactiveCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 242452FE1A80D79E00FFFCC1 /* ReactiveCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		242453281A80D86E00FFFCC1 /* Mantle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2424530D1A80D7AC00FFFCC1 /* Mantle.framework */; };
 		242453291A80D86E00FFFCC1 /* Mantle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2424530D1A80D7AC00FFFCC1 /* Mantle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2424532C1A80D87300FFFCC1 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2424531A1A80D81700FFFCC1 /* AFNetworking.framework */; };
 		2424532D1A80D87300FFFCC1 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2424531A1A80D81700FFFCC1 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		242453301A80D87D00FFFCC1 /* ISO8601DateFormatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2424531E1A80D81700FFFCC1 /* ISO8601DateFormatter.framework */; };
 		242453311A80D87D00FFFCC1 /* ISO8601DateFormatter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2424531E1A80D81700FFFCC1 /* ISO8601DateFormatter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2424533E1A811B9E00FFFCC1 /* MRCSourceEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2424533C1A811B9E00FFFCC1 /* MRCSourceEditorViewController.m */; };
 		2424533F1A811B9F00FFFCC1 /* MRCSourceEditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2424533D1A811B9E00FFFCC1 /* MRCSourceEditorViewController.xib */; };
@@ -224,6 +222,8 @@
 		24FF300C1B370CFA00915F8E /* BarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FF30071B370CFA00915F8E /* BarItem.m */; };
 		24FF300D1B370CFA00915F8E /* CBStoreHouseRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FF30091B370CFA00915F8E /* CBStoreHouseRefreshControl.m */; };
 		4DBA732D5E1223D6ADCA5C2C /* libPods-MVVMReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 145C40A7282374531F02687E /* libPods-MVVMReactiveCocoa.a */; };
+		A0C37A6A21E092B500584554 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2424531A1A80D81700FFFCC1 /* AFNetworking.framework */; };
+		A0C37A6B21E092B900584554 /* ISO8601DateFormatter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2424531E1A80D81700FFFCC1 /* ISO8601DateFormatter.framework */; };
 		AF5100DD0213C43A4158CD54 /* libPods-MVVMReactiveCocoaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E027E439CDEE3A02FAE54AC /* libPods-MVVMReactiveCocoaTests.a */; };
 /* End PBXBuildFile section */
 
@@ -521,7 +521,6 @@
 		242D4FEE1A64B6FA0026ABC6 /* MVVMReactiveCocoaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMReactiveCocoaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		242D4FF31A64B6FA0026ABC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		242D4FF41A64B6FA0026ABC6 /* MVVMReactiveCocoaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMReactiveCocoaTests.m; sourceTree = "<group>"; };
-		242D4FFF1A64BD730026ABC6 /* OctoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OctoKit.framework; path = "../../../Library/Developer/Xcode/DerivedData/MVVMReactiveCocoa-dkjcswigkwolokaimgekabgjuzne/Build/Products/Debug/OctoKit.framework"; sourceTree = "<group>"; };
 		242D83551A7A5B0300F5F424 /* MRCSelectBranchOrTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCSelectBranchOrTagViewController.h; sourceTree = "<group>"; };
 		242D83561A7A5B0300F5F424 /* MRCSelectBranchOrTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCSelectBranchOrTagViewController.m; sourceTree = "<group>"; };
 		242D83571A7A5B0300F5F424 /* MRCSelectBranchOrTagViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MRCSelectBranchOrTagViewController.xib; sourceTree = "<group>"; };
@@ -632,10 +631,6 @@
 		24A077121D07120000AC3A58 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
 		24A2066B1C171377005DCDE2 /* MRCViewControllerAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCViewControllerAnimatedTransition.h; sourceTree = "<group>"; };
 		24A2066C1C171377005DCDE2 /* MRCViewControllerAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCViewControllerAnimatedTransition.m; sourceTree = "<group>"; };
-		24A28A9D1A75D936005235C5 /* ReactiveCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveCocoa.framework; path = "../../../Library/Developer/Xcode/DerivedData/MVVMReactiveCocoa-dkjcswigkwolokaimgekabgjuzne/Build/Products/Debug/ReactiveCocoa.framework"; sourceTree = "<group>"; };
-		24A28A9F1A75D947005235C5 /* Mantle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mantle.framework; path = "../../../Library/Developer/Xcode/DerivedData/MVVMReactiveCocoa-dkjcswigkwolokaimgekabgjuzne/Build/Products/Debug/Mantle.framework"; sourceTree = "<group>"; };
-		24A28AA11A75D957005235C5 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/MVVMReactiveCocoa-dkjcswigkwolokaimgekabgjuzne/Build/Products/Debug/AFNetworking.framework"; sourceTree = "<group>"; };
-		24A28AA31A75D964005235C5 /* ISO8601DateFormatter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ISO8601DateFormatter.framework; path = "../../../Library/Developer/Xcode/DerivedData/MVVMReactiveCocoa-dkjcswigkwolokaimgekabgjuzne/Build/Products/Debug/ISO8601DateFormatter.framework"; sourceTree = "<group>"; };
 		24A28AE61A767F92005235C5 /* libMMMarkdown-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libMMMarkdown-iOS.a"; path = "MMMarkdown/build/Debug-iphoneos/libMMMarkdown-iOS.a"; sourceTree = "<group>"; };
 		24A47EA51BD5D9E9000B79D0 /* MRCTrendingViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCTrendingViewModel.h; sourceTree = "<group>"; };
 		24A47EA61BD5D9E9000B79D0 /* MRCTrendingViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCTrendingViewModel.m; sourceTree = "<group>"; };
@@ -796,8 +791,8 @@
 				24B76A281D92C1C2000A3CE1 /* MobileCoreServices.framework in Frameworks */,
 				24A749A01BDE5F75002B46A3 /* JavaScriptCore.framework in Frameworks */,
 				2424531F1A80D85300FFFCC1 /* OctoKit.framework in Frameworks */,
-				2424532C1A80D87300FFFCC1 /* AFNetworking.framework in Frameworks */,
-				242453301A80D87D00FFFCC1 /* ISO8601DateFormatter.framework in Frameworks */,
+				A0C37A6A21E092B500584554 /* AFNetworking.framework in Frameworks */,
+				A0C37A6B21E092B900584554 /* ISO8601DateFormatter.framework in Frameworks */,
 				242453241A80D86300FFFCC1 /* ReactiveCocoa.framework in Frameworks */,
 				242453281A80D86E00FFFCC1 /* Mantle.framework in Frameworks */,
 				4DBA732D5E1223D6ADCA5C2C /* libPods-MVVMReactiveCocoa.a in Frameworks */,
@@ -1049,69 +1044,69 @@
 		240D01081A654D300033CC86 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				24B4DA171A66C1C600DDFA6C /* ItemViewModel */,
 				240D01091A654D300033CC86 /* BaseClass */,
 				240D01151A654D300033CC86 /* HeaderViewModel */,
+				24B4DA171A66C1C600DDFA6C /* ItemViewModel */,
+				24F120401AA7528A00A22D9A /* MRCAboutViewModel.h */,
+				24F120411AA7528A00A22D9A /* MRCAboutViewModel.m */,
+				24A49AD31CDDE3DF0039A424 /* MRCCountryAndLanguageViewModel.h */,
+				24A49AD41CDDE3DF0039A424 /* MRCCountryAndLanguageViewModel.m */,
+				24A49ABE1CDDB8060039A424 /* MRCCountryViewModel.h */,
+				24A49ABF1CDDB8060039A424 /* MRCCountryViewModel.m */,
+				24B29BFB1CA6D35D00963648 /* MRCExploreViewModel.h */,
+				24B29BFC1CA6D35D00963648 /* MRCExploreViewModel.m */,
+				24D899EC1AAAAE9F00BC607C /* MRCFeedbackViewModel.h */,
+				24D899ED1AAAAE9F00BC607C /* MRCFeedbackViewModel.m */,
+				242D83671A7A7E4800F5F424 /* MRCGitTreeViewModel.h */,
+				242D83681A7A7E4800F5F424 /* MRCGitTreeViewModel.m */,
 				240D011D1A654D300033CC86 /* MRCHomepageViewModel.h */,
 				240D011E1A654D300033CC86 /* MRCHomepageViewModel.m */,
+				24FB0EE01CCCD791005A151F /* MRCLanguageViewModel.h */,
+				24FB0EE11CCCD791005A151F /* MRCLanguageViewModel.m */,
 				240D011F1A654D300033CC86 /* MRCLoginViewModel.h */,
 				240D01201A654D300033CC86 /* MRCLoginViewModel.m */,
 				240D01211A654D300033CC86 /* MRCNewsViewModel.h */,
 				240D01221A654D300033CC86 /* MRCNewsViewModel.m */,
-				240D01231A654D300033CC86 /* MRCProfileViewModel.h */,
-				240D01241A654D300033CC86 /* MRCProfileViewModel.m */,
-				24DF45651A6B8BC800F23474 /* MRCRepoDetailViewModel.h */,
-				24DF45661A6B8BC800F23474 /* MRCRepoDetailViewModel.m */,
-				24DF458B1A6BF6EC00F23474 /* MRCReposViewModel.h */,
-				24DF458C1A6BF6EC00F23474 /* MRCReposViewModel.m */,
-				24DF458E1A6BF96B00F23474 /* MRCOwnedReposViewModel.h */,
-				24DF458F1A6BF96B00F23474 /* MRCOwnedReposViewModel.m */,
-				24DF45911A6BF97C00F23474 /* MRCStarredReposViewModel.h */,
-				24DF45921A6BF97C00F23474 /* MRCStarredReposViewModel.m */,
-				242D835A1A7A5B3B00F5F424 /* MRCSelectBranchOrTagViewModel.h */,
-				242D835B1A7A5B3B00F5F424 /* MRCSelectBranchOrTagViewModel.m */,
-				242D83671A7A7E4800F5F424 /* MRCGitTreeViewModel.h */,
-				242D83681A7A7E4800F5F424 /* MRCGitTreeViewModel.m */,
-				242453401A811C3C00FFFCC1 /* MRCSourceEditorViewModel.h */,
-				242453411A811C3C00FFFCC1 /* MRCSourceEditorViewModel.m */,
-				24F120251AA7445800A22D9A /* MRCSettingsViewModel.h */,
-				24F120261AA7445800A22D9A /* MRCSettingsViewModel.m */,
-				24F120401AA7528A00A22D9A /* MRCAboutViewModel.h */,
-				24F120411AA7528A00A22D9A /* MRCAboutViewModel.m */,
-				24D899EC1AAAAE9F00BC607C /* MRCFeedbackViewModel.h */,
-				24D899ED1AAAAE9F00BC607C /* MRCFeedbackViewModel.m */,
-				240BFBD61AFF240B006ABC05 /* MRCSearchViewModel.h */,
-				240BFBD71AFF240B006ABC05 /* MRCSearchViewModel.m */,
-				240BFBF81AFF31C8006ABC05 /* MRCReposSearchResultsViewModel.h */,
-				240BFBF91AFF31C8006ABC05 /* MRCReposSearchResultsViewModel.m */,
-				2458A2431B00EFA000E9FB9B /* MRCRepoSettingsViewModel.h */,
-				2458A2441B00EFA000E9FB9B /* MRCRepoSettingsViewModel.m */,
-				243688371B25E2D700D801D3 /* MRCUserListViewModel.h */,
-				243688381B25E2D700D801D3 /* MRCUserListViewModel.m */,
-				248973761B3028AA00A867DE /* MRCUserDetailViewModel.h */,
-				248973771B3028AA00A867DE /* MRCUserDetailViewModel.m */,
-				2489AD591B33AEE200D76523 /* MRCPublicReposViewModel.h */,
-				2489AD5A1B33AEE200D76523 /* MRCPublicReposViewModel.m */,
-				24A47EA51BD5D9E9000B79D0 /* MRCTrendingViewModel.h */,
-				24A47EA61BD5D9E9000B79D0 /* MRCTrendingViewModel.m */,
-				24143F041BD783D300555179 /* MRCTrendingSettingsViewModel.h */,
-				24143F051BD783D300555179 /* MRCTrendingSettingsViewModel.m */,
-				24B29BFB1CA6D35D00963648 /* MRCExploreViewModel.h */,
-				24B29BFC1CA6D35D00963648 /* MRCExploreViewModel.m */,
-				24FB0ED01CCCB2F2005A151F /* MRCShowcaseReposViewModel.h */,
-				24FB0ED11CCCB2F2005A151F /* MRCShowcaseReposViewModel.m */,
-				24FB0ED81CCCD262005A151F /* MRCPopularReposViewModel.h */,
-				24FB0ED91CCCD262005A151F /* MRCPopularReposViewModel.m */,
-				24FB0EE01CCCD791005A151F /* MRCLanguageViewModel.h */,
-				24FB0EE11CCCD791005A151F /* MRCLanguageViewModel.m */,
-				24A49ABE1CDDB8060039A424 /* MRCCountryViewModel.h */,
-				24A49ABF1CDDB8060039A424 /* MRCCountryViewModel.m */,
-				24A49AD31CDDE3DF0039A424 /* MRCCountryAndLanguageViewModel.h */,
-				24A49AD41CDDE3DF0039A424 /* MRCCountryAndLanguageViewModel.m */,
-				24A49AE51CDE0C110039A424 /* MRCTrendingReposViewModel.h */,
-				24A49AE61CDE0C110039A424 /* MRCTrendingReposViewModel.m */,
 				243C5EC01CE856AC00E70E42 /* MRCOAuthViewModel.h */,
 				243C5EC11CE856AC00E70E42 /* MRCOAuthViewModel.m */,
+				24DF458E1A6BF96B00F23474 /* MRCOwnedReposViewModel.h */,
+				24DF458F1A6BF96B00F23474 /* MRCOwnedReposViewModel.m */,
+				24FB0ED81CCCD262005A151F /* MRCPopularReposViewModel.h */,
+				24FB0ED91CCCD262005A151F /* MRCPopularReposViewModel.m */,
+				240D01231A654D300033CC86 /* MRCProfileViewModel.h */,
+				240D01241A654D300033CC86 /* MRCProfileViewModel.m */,
+				2489AD591B33AEE200D76523 /* MRCPublicReposViewModel.h */,
+				2489AD5A1B33AEE200D76523 /* MRCPublicReposViewModel.m */,
+				24DF45651A6B8BC800F23474 /* MRCRepoDetailViewModel.h */,
+				24DF45661A6B8BC800F23474 /* MRCRepoDetailViewModel.m */,
+				2458A2431B00EFA000E9FB9B /* MRCRepoSettingsViewModel.h */,
+				2458A2441B00EFA000E9FB9B /* MRCRepoSettingsViewModel.m */,
+				240BFBF81AFF31C8006ABC05 /* MRCReposSearchResultsViewModel.h */,
+				240BFBF91AFF31C8006ABC05 /* MRCReposSearchResultsViewModel.m */,
+				24DF458B1A6BF6EC00F23474 /* MRCReposViewModel.h */,
+				24DF458C1A6BF6EC00F23474 /* MRCReposViewModel.m */,
+				240BFBD61AFF240B006ABC05 /* MRCSearchViewModel.h */,
+				240BFBD71AFF240B006ABC05 /* MRCSearchViewModel.m */,
+				242D835A1A7A5B3B00F5F424 /* MRCSelectBranchOrTagViewModel.h */,
+				242D835B1A7A5B3B00F5F424 /* MRCSelectBranchOrTagViewModel.m */,
+				24F120251AA7445800A22D9A /* MRCSettingsViewModel.h */,
+				24F120261AA7445800A22D9A /* MRCSettingsViewModel.m */,
+				24FB0ED01CCCB2F2005A151F /* MRCShowcaseReposViewModel.h */,
+				24FB0ED11CCCB2F2005A151F /* MRCShowcaseReposViewModel.m */,
+				242453401A811C3C00FFFCC1 /* MRCSourceEditorViewModel.h */,
+				242453411A811C3C00FFFCC1 /* MRCSourceEditorViewModel.m */,
+				24DF45911A6BF97C00F23474 /* MRCStarredReposViewModel.h */,
+				24DF45921A6BF97C00F23474 /* MRCStarredReposViewModel.m */,
+				24A49AE51CDE0C110039A424 /* MRCTrendingReposViewModel.h */,
+				24A49AE61CDE0C110039A424 /* MRCTrendingReposViewModel.m */,
+				24143F041BD783D300555179 /* MRCTrendingSettingsViewModel.h */,
+				24143F051BD783D300555179 /* MRCTrendingSettingsViewModel.m */,
+				24A47EA51BD5D9E9000B79D0 /* MRCTrendingViewModel.h */,
+				24A47EA61BD5D9E9000B79D0 /* MRCTrendingViewModel.m */,
+				248973761B3028AA00A867DE /* MRCUserDetailViewModel.h */,
+				248973771B3028AA00A867DE /* MRCUserDetailViewModel.m */,
+				243688371B25E2D700D801D3 /* MRCUserListViewModel.h */,
+				243688381B25E2D700D801D3 /* MRCUserListViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -1503,14 +1498,9 @@
 				242452F21A80D79D00FFFCC1 /* ReactiveCocoa.xcodeproj */,
 				242453011A80D7AB00FFFCC1 /* Mantle.xcodeproj */,
 				24A28AE61A767F92005235C5 /* libMMMarkdown-iOS.a */,
-				24A28AA31A75D964005235C5 /* ISO8601DateFormatter.framework */,
-				24A28AA11A75D957005235C5 /* AFNetworking.framework */,
-				24A28A9F1A75D947005235C5 /* Mantle.framework */,
-				24A28A9D1A75D936005235C5 /* ReactiveCocoa.framework */,
 				241545D91A67F3F4007AFD5B /* Foundation.framework */,
 				241545D71A67F3EF007AFD5B /* UIKit.framework */,
 				241545D51A67F3CF007AFD5B /* CoreGraphics.framework */,
-				242D4FFF1A64BD730026ABC6 /* OctoKit.framework */,
 				145C40A7282374531F02687E /* libPods-MVVMReactiveCocoa.a */,
 				6E027E439CDEE3A02FAE54AC /* libPods-MVVMReactiveCocoaTests.a */,
 			);
@@ -1541,7 +1531,6 @@
 				246AC34B1A65773E0021DCA2 /* Update Build With Number Of Commits */,
 				242D4FD31A64B6FA0026ABC6 /* Resources */,
 				242453231A80D85300FFFCC1 /* Embed Frameworks */,
-				4D0057EB98400EC217E50A13 /* [CP] Embed Pods Frameworks */,
 				58D3FB052804791633D713B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1566,8 +1555,6 @@
 				242D4FEA1A64B6FA0026ABC6 /* Sources */,
 				242D4FEB1A64B6FA0026ABC6 /* Frameworks */,
 				242D4FEC1A64B6FA0026ABC6 /* Resources */,
-				711F146F5514DA4E99DDFB00 /* [CP] Copy Pods Resources */,
-				953C8062A7A2B038E7B86E59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1591,8 +1578,8 @@
 				TargetAttributes = {
 					242D4FD41A64B6FA0026ABC6 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = V45CY933KN;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = RKHNFUJ85U;
+						ProvisioningStyle = Automatic;
 					};
 					242D4FED1A64B6FA0026ABC6 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -1866,21 +1853,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D0057EB98400EC217E50A13 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMReactiveCocoa/Pods-MVVMReactiveCocoa-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		58D3FB052804791633D713B9 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1888,7 +1860,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MVVMReactiveCocoa/Pods-MVVMReactiveCocoa-resources.sh",
-				$PODS_CONFIGURATION_BUILD_DIR/Appirater/Appirater.bundle,
+				"${PODS_CONFIGURATION_BUILD_DIR}/Appirater/Appirater.bundle",
 				"${PODS_ROOT}/FormatterKit/Localizations/ar.lproj",
 				"${PODS_ROOT}/FormatterKit/Localizations/ca.lproj",
 				"${PODS_ROOT}/FormatterKit/Localizations/cs.lproj",
@@ -1944,41 +1916,61 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Appirater.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ar.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ca.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cs.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/da.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/el.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/he.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hu.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/id.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/it.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ko.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ms.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nb.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nn.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt_BR.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ro.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ru.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sv.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/th.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/uk.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hant.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_amatorka.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_miss_etikate.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_1.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/lookup_soft_elegance_2.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResourcesNew.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentDetailController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentInputController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSCommentInputControlleriPad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMShareEditViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMShareEditViewControlleriPad.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSLoginViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSnsAccountViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSShareListController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WebViewJavascriptBridge.js.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMReactiveCocoa/Pods-MVVMReactiveCocoa-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		711F146F5514DA4E99DDFB00 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMReactiveCocoaTests/Pods-MVVMReactiveCocoaTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		953C8062A7A2B038E7B86E59 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMReactiveCocoaTests/Pods-MVVMReactiveCocoaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EA9395FC63FCE26D7B991597 /* [CP] Check Pods Manifest.lock */ = {
@@ -2291,10 +2283,10 @@
 			baseConfigurationReference = 1CFF695F9C512FDAF1756F23 /* Pods-MVVMReactiveCocoa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Chunfeng Lei (5M34Q825AP)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = V45CY933KN;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKHNFUJ85U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MVVMReactiveCocoa-dkjcswigkwolokaimgekabgjuzne/Build/Products/Debug",
@@ -2315,7 +2307,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MVVMReactiveCocoa/MVVMReactiveCocoa-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2324,8 +2316,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leichunfeng.MVVMReactiveCocoa;
 				PRODUCT_NAME = GitBucket;
-				PROVISIONING_PROFILE = "b7f7b6c8-ff5b-4fb8-97f6-b64f8c0ab281";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Development: MVVMReactiveCocoa";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -2335,10 +2327,10 @@
 			baseConfigurationReference = 336CB84375D1CDB43B3192D1 /* Pods-MVVMReactiveCocoa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Chunfeng Lei (V45CY933KN)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = V45CY933KN;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RKHNFUJ85U;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/MVVMReactiveCocoa-dkjcswigkwolokaimgekabgjuzne/Build/Products/Debug",
@@ -2359,7 +2351,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "MVVMReactiveCocoa/MVVMReactiveCocoa-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2368,8 +2360,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.leichunfeng.MVVMReactiveCocoa;
 				PRODUCT_NAME = GitBucket;
-				PROVISIONING_PROFILE = "a56c8250-a0f4-4905-812a-c366a69d1b3e";
-				PROVISIONING_PROFILE_SPECIFIER = "iOS Distribution: MVVMReactiveCocoa";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

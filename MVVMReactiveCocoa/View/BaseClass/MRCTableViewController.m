@@ -44,6 +44,11 @@
 - (void)setView:(UIView *)view {
     [super setView:view];
     if ([view isKindOfClass:UITableView.class]) self.tableView = (UITableView *)view;
+    
+    UIView *subView = view.subviews.firstObject;
+    if ([subView isKindOfClass:UITableView.class]) {
+        self.tableView = (UITableView *)subView;
+    }
 }
 
 - (UIEdgeInsets)contentInset {

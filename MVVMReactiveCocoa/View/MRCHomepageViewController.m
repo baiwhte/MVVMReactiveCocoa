@@ -35,12 +35,12 @@
     UINavigationController *newsNavigationController = ({
         MRCNewsViewController *newsViewController = [[MRCNewsViewController alloc] initWithViewModel:self.viewModel.newsViewModel];
 
-        UIImage *newsImage = [UIImage octicon_imageWithIcon:@"Rss"
+        UIImage *newsImage = [UIImage octicon_imageWithIcon:@"Rss1"
                                             backgroundColor:[UIColor clearColor]
                                                   iconColor:[UIColor lightGrayColor]
                                                   iconScale:1
                                                     andSize:CGSizeMake(25, 25)];
-        UIImage *newsHLImage = [UIImage octicon_imageWithIcon:@"Rss"
+        UIImage *newsHLImage = [UIImage octicon_imageWithIcon:@"Rss2"
                                               backgroundColor:[UIColor clearColor]
                                                     iconColor:HexRGB(colorI3)
                                                     iconScale:1

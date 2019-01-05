@@ -37,7 +37,7 @@
     [self configureFMDB];
     [self configureKeyboardManager];
     [self configureReachability];
-    [self configureUMengSocial];
+//    [self configureUMengSocial];
     [self configureAppirater];
     
     AFNetworkActivityIndicatorManager.sharedManager.enabled = YES;
